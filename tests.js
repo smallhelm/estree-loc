@@ -15,5 +15,11 @@ test('it', function(t){
     end: {line: 2, column: 3}
   });
 
+  t.deepEquals(toLoc('one\n    two\nthree  ')(8, 17), {
+    source: 'two\nthree',
+    start: {line: 2, column: 4},
+    end: {line: 3, column: 5}
+  });
+
   t.end();
 });
