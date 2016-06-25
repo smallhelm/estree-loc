@@ -1,6 +1,6 @@
 {
   "name": "estree-loc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![build status](https://secure.travis-ci.org/smallhelm/estree-loc.svg)](https://travis-ci.org/smallhelm/estree-loc)",
   "main": "index.js",
   "scripts": {
