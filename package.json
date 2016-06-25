@@ -1,0 +1,30 @@
+{
+  "name": "estree-loc",
+  "version": "0.0.0",
+  "description": "[![build status](https://secure.travis-ci.org/smallhelm/estree-loc.svg)](https://travis-ci.org/smallhelm/estree-loc)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/estree-loc.git"
+  },
+  "keywords": [
+    "estree",
+    "loc",
+    "source-maps"
+  ],
+  "author": "farskipper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/estree-loc/issues"
+  },
+  "homepage": "https://github.com/smallhelm/estree-loc#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "line-column": "^1.0.2"
+  }
+}
