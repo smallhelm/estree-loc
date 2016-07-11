@@ -21,5 +21,11 @@ test('it', function(t){
     end: {line: 3, column: 5}
   });
 
+  t.deepEquals(toLoc('only')(0, 4), {
+    source: 'only',
+    start: {line: 1, column: 0},
+    end: {line: 1, column: 4}
+  }, 'should work when given the last index');
+
   t.end();
 });

@@ -1,7 +1,7 @@
 {
   "name": "estree-loc",
   "version": "1.0.1",
-  "description": "[![build status](https://secure.travis-ci.org/smallhelm/estree-loc.svg)](https://travis-ci.org/smallhelm/estree-loc)",
+  "description": "Convert a string start and end indices to an estree loc objects.",
   "main": "index.js",
   "scripts": {
     "test": "node tests.js"

@@ -4,10 +4,10 @@ module.exports = function(str){
   var lc = LineColumn(str, {origin: 0});
 
   var toPosition = function(index){
-    var p = lc.fromIndex(index);
+    var p = lc.fromIndex(index >= str.length ? str.length - 1 : index);
     return {
       line: p.line + 1,
-      column: p.col
+      column: p.col + (index >= str.length ? 1 : 0)
     };
   };
 
