@@ -1,6 +1,6 @@
 var LineColumn = require('line-column');
 
-module.exports = function(str){
+module.exports = function(str, source){
   var lc = LineColumn(str, {origin: 0});
 
   var toPosition = function(index){
@@ -13,7 +13,7 @@ module.exports = function(str){
 
   return function(start, end){
     return {
-      source: str.substring(start, end),
+      source: source,
       start: toPosition(start),
       end: toPosition(end)
     };
