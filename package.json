@@ -1,6 +1,6 @@
 {
   "name": "estree-loc",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Convert a string start and end indices to an estree loc objects.",
   "main": "index.js",
   "scripts": {
